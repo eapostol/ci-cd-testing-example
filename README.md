@@ -1,6 +1,13 @@
 # Film Tracker App Demo with CI/CD and Testing
 
 January 2024
+revision 1.1
+
+
+## Changes
+
+2025-03-17: 
+updated repository to use Node 20; added If check to console.log API key only if running app locally
 
 ## Overview
 
