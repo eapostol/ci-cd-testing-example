@@ -1,6 +1,8 @@
 const searchOMDB = async (query: string) => {
   try {
-    console.log(import.meta.env.VITE_OMDB_API_KEY);
+    if (import.meta.env.NODE_ENV && import.meta.env.NODE_ENV === 'development') {
+      console.log(import.meta.env.VITE_OMDB_API_KEY);
+    }
     const response = await fetch(
       `https://www.omdbapi.com/?t=${query}&apikey=${
         import.meta.env.VITE_OMDB_API_KEY
