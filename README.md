@@ -1,6 +1,13 @@
 # Film Tracker App Demo with CI/CD and Testing
 
 January 2024
+revision 1.1
+
+
+## Changes
+
+2025-03-17: 
+updated repository to use Node 20; added If check to console.log API key only if running app locally
 
 ## Overview
 
@@ -23,3 +30,7 @@ The application is deployed to Render, a cloud platform that hosts the app and m
 ## Conclusion
 
 By leveraging GitHub Actions for CI/CD, the Film Tracker App ensures high code quality and a seamless deployment process. This setup allows developers to focus on building features while maintaining confidence that the application remains stable and up-to-date.
+
+## Contact
+
+contact the developer, Edward Apostol at eapostol at instructors dot 2u dot com
